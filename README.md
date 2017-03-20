@@ -45,18 +45,16 @@
 
 <h3>Validation and Presentation</h3>
   <ul>
-
-  	<li>All content must be valid HTML 5 (exceptions allowed for non-structural errors)</li>
+    <li>All content must be valid HTML 5 (exceptions allowed for non-structural errors)</li>
     <li>All presentation must be valid CSS</li>
-<!--  	<li>Add a link on each page to validate:
-      <ul>
-        <li>HTML: <a href="http://validator.w3.org/">http://validator.w3.org/</a></li>
-      </ul></li>-->
+    <li>Add a link on each page to validate:
+        HTML: <a href="http://validator.w3.org/">http://validator.w3.org/</a>
+     </li>
     <li>Exceptions will be made for non-structural errors (eg: query strings)</li>
-	<li>Code must be commented and tabbed</li>
-	<li>SEO principles must be followed on all documents</li>
-	<li>Demonstrate to your client that your team takes pride in their work by ensuring the entire meta-site and proto-site experience is built with care. </li>
-</ul>
+    <li>Code must be commented and tabbed</li>
+    <li>SEO principles must be followed on all documents</li>
+    <li>Demonstrate to your client that your team takes pride in their work by ensuring the entire meta-site and proto-site experience is built with care. </li>
+  </ul>
 	
 
 	<h3>Remember!</h3>
