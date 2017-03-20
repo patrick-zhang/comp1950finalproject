@@ -23,8 +23,7 @@
 	<li>For this project, you have been contracted to provide a protosite and supporting documents for the proposed website</li>
 	<li>You will create a web site that describes the project and includes links to various project artifacts.  This is generally known as a <em>meta site</em>. Note the meta site is about the entire redesign project, it will include the proposed site redesign, but it is not itself the redesign. It should have its own appealing design and layout, distinct from the proposed site redesign</li>
 		
-		<li>The meta site should include:
-		<ol>
+		<li>The meta site should include: </li>
 
 		<li>An <strong>Introduction</strong> page that describes the project and the members of the team.  This page should also list what each team member actually did during the project, and provide a navigation for the rest of the project web site.</li>
 		<li>A <strong>proto-site</strong> that has at least four of the pages mocked up.  Preferably pages that are representative of different page types, eg: the home page, a lecture page an example quiz page, etc. The mockup pages must be styled to reflect the website you propose to build. It should demonstrate the proposed layout, color scheme, font choices and an example site navigation. All proto-site pages should have two optional stylesheets: one normal view, one for the in-class overhead projector. They should also feature a printer optimized stylesheet.</li>
@@ -32,7 +31,7 @@
 		<li><strong>Rationale</strong> page - this is among the most important pages in your project. This is your chance to 'sell' your efforts to your client instructor. This is where you describe <strong>why</strong> you chose to build the site in the way you have proposed. List all the deliverables you have implemented, and and any features or improvements you have added. Justify your decisions for choosing a particular layout and design. If you used advanced technology such as jQuery or CSS3, mention where it is being used, and why. Also List any features you had planned to implement but could not complete. If your rationale does not decribe a sufficient quantity of improvements, and if it does not effectively make a case for how these changes improve the site, your client will not be conviced that your team is the best choice.</li>
 		<li>All of this should be presented in an <em>HTML 5 compliant web site with CSS</em></li>
 		<li>The layout must handle well in desktop and laptop <em>modern browsers</em> with varying widths and heights. It does not neccessarily have to be optimized for handheld devices, unless your group decides this would be a useful feature.</li>
-		</ol></li>
+	
 </ul>
 
 <h3>Teamwork</h3>
