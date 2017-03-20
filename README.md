@@ -57,20 +57,17 @@
   </ul>
 	
 
-	<h3>Remember!</h3>
-
-	<ul>
-		<li>Look at the existing site, but don't necessarily base your new site on that one. Think outside the box! Be creative!</li>
-		<li>As a student, <em>YOU are the audience</em>.  Talk to your cohorts, spend time considering the current experience, design the site the way you think it would work best.</li>
-<li>You <strong>do not</strong> have to include actual notes for the class.  This project is to produce a proof-of-concept of the new COMP 1950 site</li>
-
-<li>Be sure to schedule time to 'bring it all together' before due date.</li>
-
-	</ul>
+<h3>Remember!</h3>
+    <ul>
+        <li>Look at the existing site, but don't necessarily base your new site on that one. Think outside the box! Be creative!</li>
+	<li>As a student, <em>YOU are the audience</em>.  Talk to your cohorts, spend time considering the current experience, design the site the way you think it would work best.</li>
+        <li>You <strong>do not</strong> have to include actual notes for the class.  This project is to produce a proof-of-concept of the new COMP 1950 site</li>
+        <li>Be sure to schedule time to 'bring it all together' before due date.</li>
+    </ul>
 
 <h3>Submission</h3>
-<ul>
+    <ul>
 	<li><strong>The final project is due by midnight the night before session #12.</strong>	</li>
 	<li>Once complete, have your team representative email a URL for your project site to your instructor</li>
-</ul>
+    </ul>
 </div>
