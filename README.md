@@ -1,3 +1,5 @@
+https://c1950.slack.com/shared_invite/MTYxNzUyODcyMDgwLTE0OTA5MjEyNzMtYThlOTY1N2UzNw
+
 # comp1950finalproject
 
 <div class="contblock">
