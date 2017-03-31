@@ -1,6 +1,4 @@
-https://c1950.slack.com/shared_invite/MTYxNzUyODcyMDgwLTE0OTA5MjEyNzMtYThlOTY1N2UzNw
-
-# comp1950finalproject
+# comp1950 Final Project
 
 <div class="contblock">
 <h3>Project Overview</h3>
