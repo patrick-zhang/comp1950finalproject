@@ -1,4 +1,4 @@
-# comp1950 Final Project
+# COMP1950 Final Project
 
 <div class="contblock">
 <h3>Project Overview</h3>
@@ -15,7 +15,7 @@
 	<li>Think outside the box - don't just copy the current design.  Look around at other sites and use your creativity.  But - be realistic!  Make your suggestions something that can work</li>
 	<li>If you have questions that will further refine your own direction, ask the owner of the site for details</li>
 	<li>Think about this project in context of the Methodology discussion of session 10.</li>
-	<li>Your client (instructor) has filled out a <a href="/comp1950/downloads/project_questionnaire_filled_out.pdf">project questionnaire </a> to better clarify what they are looking for.</li>
+	<li>Your client (instructor) has filled out a <a href="http://bcitcomp.ca/comp1950/downloads/project_questionnaire_filled_out.pdf">project questionnaire </a> to better clarify what they are looking for.</li>
 </ul>
 
 <h3>Deliverables</h3>
@@ -25,7 +25,7 @@
 	<li>The meta site should include: </li>
 	<li>An <strong>Introduction</strong> page that describes the project and the members of the team.  This page should also list what each team member actually did during the project, and provide a navigation for the rest of the project web site.</li>
 	<li>A <strong>proto-site</strong> that has at least four of the pages mocked up.  Preferably pages that are representative of different page types, eg: the home page, a lecture page an example quiz page, etc. The mockup pages must be styled to reflect the website you propose to build. It should demonstrate the proposed layout, color scheme, font choices and an example site navigation. All proto-site pages should have two optional stylesheets: one normal view, one for the in-class overhead projector. They should also feature a printer optimized stylesheet.</li>
-	<li><strong>Sitemap</strong> should demonstrate the proposed website information architecture by showing a site map. The links of the sitemap dont need to link to anything. (<a href="sitemap.html">Example sitemap</a>) (HTML, Word or Visio)</li>
+	<li><strong>Sitemap</strong> should demonstrate the proposed website information architecture by showing a site map. The links of the sitemap dont need to link to anything. (<a href="http://bcitcomp.ca/1950/lectures/eleven/sitemap.html">Example sitemap</a>) (HTML, Word or Visio)</li>
 	<li><strong>Rationale</strong> page - this is among the most important pages in your project. This is your chance to 'sell' your efforts to your client instructor. This is where you describe <strong>why</strong> you chose to build the site in the way you have proposed. List all the deliverables you have implemented, and and any features or improvements you have added. Justify your decisions for choosing a particular layout and design. If you used advanced technology such as jQuery or CSS3, mention where it is being used, and why. Also List any features you had planned to implement but could not complete. If your rationale does not decribe a sufficient quantity of improvements, and if it does not effectively make a case for how these changes improve the site, your client will not be conviced that your team is the best choice.</li>
 	<li>All of this should be presented in an <em>HTML 5 compliant web site with CSS</em></li>
 	<li>The layout must handle well in desktop and laptop <em>modern browsers</em> with varying widths and heights. It does not neccessarily have to be optimized for handheld devices, unless your group decides this would be a useful feature.</li>
