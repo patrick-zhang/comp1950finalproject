@@ -8,6 +8,8 @@
 <h3>Requirements</h3>
 <p>The COMP 1950 owner would like the web site redesigned in order to better meet the needs of students.  The website owner has contracted your group, as students of the class, to act as contractors for this project.</p>
 
+## <a href="http://bcitcomp.ca/comp1950/downloads/project_questionnaire_filled_out.pdf">Contract</a>
+
 <h3>Project Goals</h3>
 <ul>
 	<li>Students must have easy access to notes, examples and other information</li>
