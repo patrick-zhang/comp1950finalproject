@@ -1,0 +1,109 @@
+/* Protosite Index CSS */
+
+* {
+  	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+  	text-decoration: none;
+}
+
+body { 
+	font-family: Verdana, Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 400px 0;
+}
+
+.floating-box-1 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    border: none;  
+    background-color: #4B286D;
+    float: left;
+    padding: 134px 0;
+    font-size: 2em;
+    color: #ffffff; 
+    text-align: center;
+}
+
+.floating-box-2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    border: none;  
+    background-color: #9ED300;
+    float: left;
+    padding: 134px 0;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.floating-box-3 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    border: none;  
+    background-color: #248700;
+    float: left;
+    padding: 134px 0;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.floating-box-4 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    border: none;  
+    background-color: #950018;
+    float: left;
+    padding: 134px 0;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header {
+  	min-height: 320px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 2em;
+  	border: none;
+  	background-size: 1800px 320px;
+  	background-position: center top;
+}
+
+.button {
+    background-color: #B06416;
+    float: initial;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer {
+	position: relative;
+  	padding: 20px;
+  	background-color: #d3d3d3;
+  	text-align: center;
+  	clear: left;
+}
+
