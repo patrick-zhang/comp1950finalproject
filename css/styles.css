@@ -1,3 +1,7 @@
 .navbar a {
 	color: white;
 }
+
+.navbar span.navbar-brand {
+	color: white;
+}
