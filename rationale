@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>COMP 1950 Final Project</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand">COMP 1950 Final Project</span>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav nav-pills pull-right">
+            <li><a href="./">Introduction</a></li>
+            <li><a href="sitemap/">Site map</a></li>
+            <li><a href="rationale.htmls">Rationale</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Rationale</h1>
+        <p>Why we made the decisions that we made.</p>
+        <p><a class="btn btn-primary btn-lg" href="./comp1950" role="button">Try the new COMP 1950 site!</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Focus</h2>
+          <p>
+            We wanted to make it easier for a student to focus on key learning activities: reading lecture notes, exploring lecture links, or completing lecture exercises. Because not all students are linear thinkers or linear learners we wanted to give them the option to explore different types of lecture content, grouped according to type.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Style Sheets</h2>
+          <p>
+            We also felt that it would be beneficial if students could select from a variety of stylesheets at the click of a button - and, at the end of COMP1950, add their own stylesheets in what could become an ongoing catalogue of more and more sheets to choose from. Eventually clicking on the stylesheet button would present a gallery of styles similar to CMS theme selection page, like Tumblr and Wordpress from which any number of styles could be tried out.
+          </p>
+       </div>
+        <div class="col-md-4">
+          <h2>Other Considerations</h2>
+          <p>
+            Herewith we will momentarily elucidate on our allocations of neural milieu to the benefit of all.
+          </p>
+          </div>
+        <div class="col-md-4">
+          <h2>Errata</h2>
+          <ul>
+          	<li>well commented CSS</li>
+        	<li>one .zip file for all content</li>
+          	<li>.gzip</li>
+          	<li>offline use through excessive caching</li>
+          	<li>SSI exercises</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2017 Craig, Julian and Patrick</p>
+        <p>
+          <a href="http://validator.w3.org/check?uri=referer">Validate html</a>.
+        </p>
+      </footer>
+    </div> <!-- /container -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
