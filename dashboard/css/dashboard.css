@@ -19,6 +19,29 @@ body {
   padding-right: 5px;
 }
 
+.badge {
+  margin-left: 5px;
+  background-color: white;
+  color: #d9534f;
+}
+
+.progress {
+  width: 60%;
+  border: 1px solid green;
+}
+
+.progress-label {
+  padding-bottom: 10px;
+}
+
+.progress-label .label {
+  padding: 10px;
+}
+
+.label-info {
+  font-size: 16px;
+}
+
 /*
  * Global add-ons
  */
