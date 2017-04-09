@@ -1,0 +1,40 @@
+*:first-letter{
+	text-transform: capitalize;
+}
+
+#toc-here {
+	float: right;
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	font-size: 95%;
+	padding: 7px;
+}
+
+div#toc-here summary{
+	font-size: 1.25em;
+	font-weight: bold;
+	cursor: pointer;
+	color: blue; /*Change to a better idea for a hover effect...*/
+}
+
+/*Gettin grid of the arrow, to replace it with something else later*/
+/*
+div#toc-here summary::-webkit-details-marker { display:none; }
+div#toc-here details>summary:first-of-type { list-style-type: none; }
+}
+*/
+
+div#toc-here summary:hover{
+	color: black;
+}
+div#toc-here details[open] summary{
+	color: black;
+}
+
+nav.table-of-contents ol {
+	padding: 0.25em 0 0.25em 1.5em;
+}
+
+nav.table-of-contents {
+	max-width: 20em;
+}
