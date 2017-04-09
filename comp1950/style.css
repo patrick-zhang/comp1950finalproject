@@ -10,7 +10,7 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  
+
   /* non-critical appearance styles */
   list-style: none;
   background: #111;
@@ -51,7 +51,7 @@
   bottom: 100%;
   left: 0;
   z-index: 1;
-  
+
   /* non-critical apperance styles */
   padding: 4em;
   background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
@@ -70,7 +70,7 @@ label[for="nav-trigger"] {
   position: fixed;
   left: 15px; top: 15px;
   z-index: 2;
-  
+
   /* non-critical apperance styles */
   height: 30px;
   width: 30px;
@@ -116,84 +116,178 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
 
 /* end nav css */
 
-#toc-here {
-	float: right;
-	border: 1px solid #a2a9b1;
-	background-color: #f8f9fa;
-	font-size: 95%;
-	padding: 7px;
-}
 
-div#toc-here summary{
-	font-size: 1.25em;
-	font-weight: bold;
-	cursor: pointer;
-	color: blue; /*Change to a better idea for a hover effect...*/
-}
-
-/*Gettin grid of the arrow, to replace it with something else later*/
-/*
-div#toc-here summary::-webkit-details-marker { display:none; }
-div#toc-here details>summary:first-of-type { list-style-type: none; }
-}
-*/
-
-div#toc-here summary:hover{
-	color: black;
-}
-div#toc-here details[open] summary{
-	color: black;
-}
-
-nav.table-of-contents ol {
-	padding: 0.25em 0 0.25em 1.5em;
-}
-
-nav.table-of-contents {
-	max-width: 20em;
-}
-
-
-
-
-
+/*Table of Contents*/
 *:first-letter{
 	text-transform: capitalize;
 }
 
 #toc-here {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	position: fixed;
+	max-width: calc(100vw - 4em);
+	height: calc(100vh - 2em);
+	width: 0px;
+}
+
+#toc-here details[open] {
+	height: 100%;
+	width: calc(100vw - 4em);
+	min-width: 250px;
+}
+
+#toc-here nav.table-of-contents {
+	height: calc(100vh - 7.1em);
+	overflow: auto;
+	overflow-x: auto;
+}
+
+#toc-here details {
 	float: right;
 	border: 1px solid #a2a9b1;
 	background-color: #f8f9fa;
 	font-size: 95%;
-	padding: 7px;
 }
 
-div#toc-here summary{
+#toc-here summary{
 	font-size: 1.25em;
 	font-weight: bold;
 	cursor: pointer;
+	padding: 7px;
+	min-width: 7em;
 	color: blue; /*Change to a better idea for a hover effect...*/
 }
 
 /*Gettin grid of the arrow, to replace it with something else later*/
 /*
-div#toc-here summary::-webkit-details-marker { display:none; }
-div#toc-here details>summary:first-of-type { list-style-type: none; }
+#toc-here summary::-webkit-details-marker { display:none; }
+#toc-here details>summary:first-of-type { list-style-type: none; }
 }
 */
 
-div#toc-here summary:hover{
+#toc-here summary:hover{
 	color: black;
 }
-div#toc-here details[open] summary{
+#toc-here details[open] summary{
 	color: black;
+}
+
+#toc-here details>* {
+	padding: 0.8em;
 }
 
 nav.table-of-contents ol {
 	padding: 0.25em 0 0.25em 1.5em;
 }
 
-nav.table-of-contents {
-	max-width: 20em;
+@media (min-width:601px){
+	nav.table-of-contents {
+		columns: 2;
+	}
+}
+
+@media (min-width:850px){
+	#toc-here details {
+		max-width: 800px;
+	}
+}
+
+nav.table-of-contents>ol>li {
+	font-size: 1.3em;
+	font-weight:bold;
+}
+
+nav.table-of-contents>ol>li>ol>li {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+nav.table-of-contents>ol>li>ol>li>ol>li {
+	font-size: 0.9em;
+}
+
+nav.table-of-contents>ol {
+	margin: -1em 0 -0.5em;
+}
+
+
+
+/* Outline Out */
+
+#toc-here details[open].hvr-outline-out:before {
+	display: none;
+}
+
+.hvr-outline-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-outline-out:before {
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+  pointer-events: none;
+}
+.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+}
+
+
+/* Radial Out */
+:not([open])>.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+:not([open])>.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+:not([open])>.hvr-radial-out:hover, :not([open])>.hvr-radial-out:focus, :not([open])>.hvr-radial-out:active {
+  color: white;
+}
+:not([open])>.hvr-radial-out:hover:before, :not([open])>.hvr-radial-out:focus:before, :not([open])>.hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }

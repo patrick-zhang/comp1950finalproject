@@ -4,7 +4,7 @@ $(function() {
 		return new Array(num + 1).join(this);
 	}
 	var ToC =
-		"<details><summary>Contents</summary><nav role='navigation' class='table-of-contents'>" +
+		"<details class='hvr-outline-out'><summary class='hvr-radial-out'>Contents</summary><nav role='navigation' class='table-of-contents'>" +
 			"" +
 			"<ol>";
 
@@ -14,7 +14,7 @@ $(function() {
 
 		el = $(this);
 		title = el.text();
-		el.attr("id", title.split(' ').join('_'));
+		el.attr("id", title.split(' ').join('_').replace(/[^0-9a-zA-Z_?]/g, '-'));
 		link = "#" + el.attr("id");
 
 		var prevLevel = level || 0;
