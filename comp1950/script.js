@@ -10,7 +10,7 @@ $(function() {
 
 	var newLine, el, title, link, level, baseLevel;
 
-	$("article h2, article h3, article h4, article h5, article h6").each(function() {
+	$("article h2, article h3, article h4" /*article h5, article h6*/).each(function() {
 
 		el = $(this);
 		title = el.text();

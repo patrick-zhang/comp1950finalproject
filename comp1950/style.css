@@ -16,6 +16,7 @@
 html, body {
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 /*Fixes inconsistently capitalized content */
@@ -28,6 +29,59 @@ html, body {
   /* Critical position and size styles */
   position: relative;
   padding: 2em 4em;
+}
+
+/*major and content section colors and padding*/
+section.major-section {
+	padding: 0.1em 1em;
+	margin: 2.5em 0;
+	max-width: 48em;
+	background-color: #72dc39;
+	border: 1px solid black;
+	box-shadow: 0px 4px 10px black;
+}
+
+section.major-section:first-of-type {
+	background-color: #72dc39;
+}
+
+section.major-section:nth-of-type(2) {
+	background-color: #8b54ec;
+}
+
+section.major-section:nth-of-type(3) {
+	background-color: #FFC107;
+}
+
+section.contblock{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0.25em 1.5em 1.5em;
+	margin: 1em 1.5em 2.5em;
+	border: 1px dotted rgba(85, 30, 185, 0.82);
+}
+
+section.contblock a{
+	font-weight: bold;
+	text-shadow: 1px 1px azure;
+}
+
+section.contblock a:hover{
+	text-shadow: 1px 2px white;
+}
+
+section.contblock h5{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	font-size: medium;
+}
+
+section.contblock fieldset {
+	background-color: rgba(240, 248, 255, 0.32);
+}
+
+section.contblock legend {
+	font-weight: bold;
 }
 
 /* start left side nav */

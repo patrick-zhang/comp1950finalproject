@@ -236,11 +236,11 @@
 			<section class="contblock">
 			<h3>Methodology: site planning overview</h3>
 				<ul>
-					<li><b>define site objectives</b> - what's the point? business goals? creative goals? (context)</li>
-					<li><b>define audience</b> - who are they and what do they need? do they need to do things? buy things? learn something? all of the above? (users)</li>
-					<li><b>identify content requirements</b> - what kind of "stuff" must be included to meet user needs? (content)</li>
-					<li><b>specify features</b> - what must the site do (i.e., specific functionality) to meet user needs?</li>
-					<li><b>create information architecture</b> - how will you structure the information space to allow quick and easy access to content and features?</li>
+					<li><h5>define site objectives</h5> - what's the point? business goals? creative goals? (context)</li>
+					<li><h5>define audience</h5> - who are they and what do they need? do they need to do things? buy things? learn something? all of the above? (users)</li>
+					<li><h5>identify content requirements</h5> - what kind of "stuff" must be included to meet user needs? (content)</li>
+					<li><h5>specify features</h5> - what must the site do (i.e., specific functionality) to meet user needs?</li>
+					<li><h5>create information architecture</h5> - how will you structure the information space to allow quick and easy access to content and features?</li>
 				</ul>
 			</section>
 
@@ -266,11 +266,11 @@
 				<h4>Why have a Methodology?</h4>
 
 				<ul>
-					<li><b>Predictable: </b> With a solid methodology, you have a predictable set of processes and tasks that you, your team, and your clients can rely on.</li>
-					<li><b>Trackable: </b> Progress is trackable, as you can look at each process or task and mark how much has been completed.</li>
-					<li><b>Responsibility: </b> Assigning responsibility to each line item will allow you to work co-operatively with the client to maintain steady progress.
+					<li><h5>Predictable: </h5> With a solid methodology, you have a predictable set of processes and tasks that you, your team, and your clients can rely on.</li>
+					<li><h5>Trackable: </h5> Progress is trackable, as you can look at each process or task and mark how much has been completed.</li>
+					<li><h5>Responsibility: </h5> Assigning responsibility to each line item will allow you to work co-operatively with the client to maintain steady progress.
 					</li>
-					<li><b>Teamwork: </b> If you are working with a team, it is much easier to move forward if you have everyone subscribing to the same methodology.</li>
+					<li><h5>Teamwork: </h5> If you are working with a team, it is much easier to move forward if you have everyone subscribing to the same methodology.</li>
 				</ul>
 			</section>
 
@@ -343,9 +343,9 @@
 					</ul>
 
 					<ul>
-						<li><b>
+						<li><h5>
 
-	Sometimes, you don't have an option! </b> (Your client is your boss/employer)
+	Sometimes, you don't have an option! </h5> (Your client is your boss/employer)
 						</li>
 						<li>
 							In this case, you need to be clear about what you can/cannot achieve early on, and be prepared to stick to your plan.</li>
@@ -423,7 +423,7 @@
 							Use definitive language to describe the project success criteria:</li>
 					</ul>
 					<p>
-						<b>Good:</b>
+						<h5>Good:</h5>
 					</p>
 					<ul>
 						<li>Develop a Site Map to use as a basis for developing completed web site</li>
@@ -434,7 +434,7 @@
 
 
 					<p>
-						<b>Bad: </b>
+						<h5>Bad: </h5>
 					</p>
 					<ul>
 						<li>Redesign the site</li>
@@ -453,8 +453,8 @@
 			<section class="contblock">
 			<h3>Before Beginning</h3>
 				<p>
-					<b>Questions for you and your
-client</b>
+					<h5>Questions for you and your
+client</h5>
 				</p>
 
 				<ul>
@@ -470,8 +470,8 @@ client</b>
 
 						In the case of a redesign, make sure you include customers when you can. All of a sudden changing the site can cause problems.
 					</li>
-					<li><b>
-	Important:</b> Design for CUSTOMERS, not executives. Too many times, sites get designed because of what the owner wants, and not what the customers need.
+					<li><h5>
+	Important:</h5> Design for CUSTOMERS, not executives. Too many times, sites get designed because of what the owner wants, and not what the customers need.
 						<ul>
 							<li>
 								Show 'best practices' of other sites</li>
@@ -487,7 +487,7 @@ client</b>
 
 				</ul>
 
-				<p class="warning">Red Alerts</p>
+				<h4 class="warning">Red Alerts</h4>
 				<ul>
 					<li><span class="warning">
 	Content!</span> This is <em>almost always</em> the biggest roadblock in getting a project completed. Clients promise content, but don't deliver on time. </li>
@@ -497,8 +497,8 @@ client</b>
 					<li>
 						Worst of all: People think that Print Content = Web Content
 						<ul>
-							<li><b>
-		Strategies</b>:
+							<li><h5>
+		Strategies</h5>:
 								<ul>
 									<li>
 										Engage them early on: What will be on the site? Exactly.
@@ -525,8 +525,8 @@ client</b>
 	Sign-Off!</span> Don't get caught late in the project with &quot;But I thought you were going to do this&quot; or &quot;I don't like the way this looks/works/feels&quot;.
 						<ul>
 
-							<li><b>
-		Strategies</b>:</li>
+							<li><h5>
+		Strategies</h5>:</li>
 							<li>
 								Identify a SINGLE PERSON who is responsible for signing off on all deliverables.</li>
 							<li>
@@ -556,8 +556,8 @@ client</b>
 					<li><span class="warning">
 	Scope Creep!</span> This is a slimy monster that can crawl all over your project plan and carve off all of your profit.
 						<ul>
-							<li><b>
-		Strategies</b>:
+							<li><h5>
+		Strategies</h5>:
 								<ul>
 
 									<li>
@@ -579,8 +579,8 @@ client</b>
 
 	Miscommunication!</span> I have seen this happen on almost every project I have been involved in. Good clients or bad, you will get into a project and have the client say: &quot;That isn't right&quot;.
 						<ul>
-							<li><b>
-		Strategies</b>
+							<li><h5>
+		Strategies</h5>
 								<ul>
 									<li>
 										Frequent follow-up with more than just a phone call.</li>
@@ -607,8 +607,8 @@ client</b>
 						<li>
 							Occasionally, or often, they may miss these deadlines, which can impinge on the project, or stop it altogether!
 							<ul>
-								<li><b>
-		Strategies</b>
+								<li><h5>
+		Strategies</h5>
 									<ul>
 										<li>
 											Get them to agree to a schedule BEFORE the project starts!
@@ -649,8 +649,8 @@ client</b>
 					</li>
 					<li>
 						If a site already exists, look at current site and learn as much as you can about what is there now</li>
-					<li><b><em>
-	Become an expert in your client's business!</em></b>
+					<li><h5><em>
+	Become an expert in your client's business!</em></h5>
 					</li>
 
 				</ul>
@@ -697,8 +697,8 @@ client</b>
 
 
 					<p>
-						<b>Understanding Your
-Audience</b>
+						<h5>Understanding Your
+Audience</h5>
 					</p>
 					<ul>
 						<li>
@@ -708,8 +708,8 @@ Audience</b>
 							What ages are they? Gender? Ethnic group? Financial Status? Technical Savvy?</li>
 						<li>
 							More than one target group? Identify all of them</li>
-						<li><b>
-	Personas (also called User Profiles or Use Cases) </b>
+						<li><h5>
+	Personas (also called User Profiles or Use Cases) </h5>
 						</li>
 
 						<li>
@@ -717,7 +717,7 @@ Audience</b>
 					</ul>
 
 					<p>
-						<b>Setting Goals</b>
+						<h5>Setting Goals</h5>
 					</p>
 					<ul>
 						<li>
@@ -785,7 +785,7 @@ Creative Brief</h4>
 					</ul>
 
 					<p>
-						<b>Project Team</b>
+						<h5>Project Team</h5>
 					</p>
 					<ul>
 						<li>
@@ -805,7 +805,7 @@ Creative Brief</h4>
 					</ul>
 
 					<p>
-						<b>Schedule</b>
+						<h5>Schedule</h5>
 					</p>
 					<ul>
 						<li>
@@ -834,12 +834,12 @@ Creative Brief</h4>
 						<li>
 							Now try and put all the tasks in chronological order, making sure that the same person cannot be working on the two tasks simultaneously.
 						</li>
-						<li><b>
-	This is expert project management</b> - Not covered in this course, but it can be a huge challenge!!</li>
+						<li><h5>
+	This is expert project management</h5> - Not covered in this course, but it can be a huge challenge!!</li>
 					</ul>
 
 					<p>
-						<b>Budget</b>
+						<h5>Budget</h5>
 					</p>
 					<ul>
 						<li>
@@ -857,7 +857,7 @@ Creative Brief</h4>
 					</ul>
 
 					<p>
-						<b>Project Plan</b>
+						<h5>Project Plan</h5>
 					</p>
 					<ul>
 						<li>
@@ -869,24 +869,24 @@ Creative Brief</h4>
 						<li>
 							Components of a Project Plan:
 							<ul>
-								<li><b>
-		Overview</b>: The executive summary. What will be accomplished in broad strokes.</li>
+								<li><h5>
+		Overview</h5>: The executive summary. What will be accomplished in broad strokes.</li>
 
-								<li><b>
-		Schedule</b>: This might be somewhat rough to begin with, but this will come out of conversations with the client and with the team. </li>
+								<li><h5>
+		Schedule</h5>: This might be somewhat rough to begin with, but this will come out of conversations with the client and with the team. </li>
 								<li>
 									Schedule may also have some critical dates (like promotional campaign start, etc.) that need to be expressly identified.</li>
 								<li>
 									Talk to your client! Make sure that the dates are achievable  by YOU AND BY THEM!</li>
-								<li><b>
+								<li><h5>
 
-		Budget</b>: Another area that may change during the review of the project. Be prepared to defend the budget</li>
-								<li><b>
-		Audience: </b> Placing this in the project plan is crucial, as this will become the main reference document throughout the project. Make sure that you include descriptions of the Personas</li>
-								<li><b>
-		Testing Plan: </b> Clearly identify what/how testing will occur, both on users and the site itself.</li>
-								<li><b>
-		Details and Assumptions: </b> Often overlooked, it is important to include as a clarifier. This is where all of the assumptions by the developer are outlined.
+		Budget</h5>: Another area that may change during the review of the project. Be prepared to defend the budget</li>
+								<li><h5>
+		Audience: </h5> Placing this in the project plan is crucial, as this will become the main reference document throughout the project. Make sure that you include descriptions of the Personas</li>
+								<li><h5>
+		Testing Plan: </h5> Clearly identify what/how testing will occur, both on users and the site itself.</li>
+								<li><h5>
+		Details and Assumptions: </h5> Often overlooked, it is important to include as a clarifier. This is where all of the assumptions by the developer are outlined.
 									<ul>
 										<li>
 											Examples:</li>
@@ -902,15 +902,15 @@ Creative Brief</h4>
 
 									</ul>
 								</li>
-								<li><b>
-		SIGNATURE LINE</b>: This is MOST important! Make sure they sign this.</li>
+								<li><h5>
+		SIGNATURE LINE</h5>: This is MOST important! Make sure they sign this.</li>
 							</ul>
 						</li>
 					</ul>
 
 					<p>
 
-						<b>Kick it off!</b>
+						<h5>Kick it off!</h5>
 					</p>
 					<ul>
 						<li>
@@ -932,7 +932,7 @@ Creative Brief</h4>
 			<section class="contblock">
 			<h3>Phase 2: Site Development</h3>
 				<p>
-					<b>Review Existing Content</b>
+					<h5>Review Existing Content</h5>
 				</p>
 
 				<ul>
@@ -962,7 +962,7 @@ Creative Brief</h4>
 				</ul>
 
 				<p>
-					<b>Sitemapping</b>
+					<h5>Sitemapping</h5>
 				</p>
 				<ul>
 					<li>
@@ -978,7 +978,7 @@ Creative Brief</h4>
 				</ul>
 
 				<p>
-					<b>Page View</b>
+					<h5>Page View</h5>
 				</p>
 				<ul>
 					<li>
@@ -989,7 +989,7 @@ Creative Brief</h4>
 				</ul>
 
 				<p>
-					<b>Wireframing</b>
+					<h5>Wireframing</h5>
 				</p>
 				<ul>
 					<li>
@@ -1008,7 +1008,7 @@ Creative Brief</h4>
 				</ul>
 
 				<p>
-					<b>Labeling the site</b>
+					<h5>Labeling the site</h5>
 				</p>
 				<ul>
 					<li>
@@ -1038,7 +1038,7 @@ Creative Brief</h4>
 				</ul>
 
 				<p>
-					<b>Defining User Paths</b>
+					<h5>Defining User Paths</h5>
 				</p>
 				<ul>
 					<li>
@@ -1076,8 +1076,8 @@ Creative Brief</h4>
 			<section class="contblock">
 			<h3>Phase 3: Design</h3>
 				<p>
-					<b>Starting the Creative
-Process</b>
+					<h5>Starting the Creative
+Process</h5>
 				</p>
 
 				<ul>
@@ -1090,8 +1090,8 @@ Process</b>
 					<li>
 
 						This is where Designers are engaged in the project.</li>
-					<li><b>
-	First thing to do</b>: Review the site goals with the client</li>
+					<li><h5>
+	First thing to do</h5>: Review the site goals with the client</li>
 					<li>
 						Use it as a re-confirmation that you are on the right track
 					</li>
@@ -1099,7 +1099,7 @@ Process</b>
 
 				<p>
 
-					<b>Brainstorming</b>
+					<h5>Brainstorming</h5>
 				</p>
 				<ul>
 					<li>
@@ -1147,12 +1147,12 @@ Process</b>
 				</ul>
 
 				<p>
-					<b>Presenting designs to the
-client</b>
+					<h5>Presenting designs to the
+client</h5>
 				</p>
 				<ul>
-					<li><b>
-	FIRST VISIT</b>
+					<li><h5>
+	FIRST VISIT</h5>
 					</li>
 					<li>
 						This is very tricky. Be AWARE that you can get caught up in some subjective commentary!</li>
@@ -1203,8 +1203,8 @@ client</b>
 
 				<ul>
 
-					<li><b>
-	RETURN VISIT</b>
+					<li><h5>
+	RETURN VISIT</h5>
 					</li>
 					<li>
 						Make sure you answer the specific questions you had in the previous meeting</li>
@@ -1225,8 +1225,8 @@ client</b>
 
 
 				<ul>
-					<li><b>
-	FINAL VISIT</b>
+					<li><h5>
+	FINAL VISIT</h5>
 					</li>
 					<li>
 						Other than little 'tweaks', make sure you get WRITTEN APPROVAL
@@ -1239,7 +1239,7 @@ client</b>
 				</ul>
 
 				<p>
-					<b>Creating a protosite</b>
+					<h5>Creating a protosite</h5>
 				</p>
 				<ul>
 					<li>
@@ -1277,7 +1277,7 @@ client</b>
 				</ul>
 				<p>
 					<br>
-					<b>Create final templates</b>
+					<h5>Create final templates</h5>
 				</p>
 				<ul>
 					<li>
@@ -1290,8 +1290,8 @@ client</b>
 				</ul>
 
 				<ul>
-					<li><b>
-	Style Guide and Standards</b>
+					<li><h5>
+	Style Guide and Standards</h5>
 					</li>
 					<li>
 						Create a STYLE GUIDE for your team, the client team and the Maintenance team
@@ -1340,8 +1340,8 @@ client</b>
 				</ul>
 
 				<ul>
-					<li><b>
-	Preproduction Review</b>
+					<li><h5>
+	Preproduction Review</h5>
 					</li>
 
 					<li>
@@ -1353,7 +1353,7 @@ client</b>
 				</ul>
 
 				<p>
-					<b>Tracking Progress</b>
+					<h5>Tracking Progress</h5>
 				</p>
 				<ul>
 					<li>
@@ -1390,7 +1390,7 @@ client</b>
 				</ul>
 
 				<p>
-					<b>Production</b>
+					<h5>Production</h5>
 				</p>
 				<ul>
 					<li>
@@ -1436,7 +1436,7 @@ client</b>
 				</ul>
 
 				<p>
-					<b>Testing</b>
+					<h5>Testing</h5>
 				</p>
 				<ul>
 					<li>
@@ -1618,6 +1618,8 @@ Content is King!</h4>
 				</ul>
 
 			</section>
+		</section>
+		<section class="major-section">
 			<h2>Find team for final project</h2>
 			<section class="contblock">
 			<h3>Exercise</h3>
