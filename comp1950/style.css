@@ -18,11 +18,6 @@ html, body {
 	margin: 0;
 }
 
-/*Fixes inconsistently capitalized content */
-*:first-letter{
-	text-transform: capitalize;
-}
-
 /* page Wrapper */
 .page-wrap {
   /* Critical position and size styles */
