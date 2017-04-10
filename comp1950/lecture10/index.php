@@ -5,48 +5,35 @@
 
 	<!-- stuff that's the same, maybe should be pulled in by script -->
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="./style.css" />
-	<link rel="alternate stylesheet" href="/1950/css/overhead.css" type="text/css" media="screen" title="Overhead" />
-	<link rel="stylesheet" type="text/css" href="/1950/css/print.css" media="print" />
-
+	<!-- mild css reset -->
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<!-- main style sheet -->
+	<link rel="stylesheet" type="text/css" href="../style.css" />
+<!--
+	<link rel="alternate stylesheet" href="../css/overhead.css" type="text/css" media="screen" title="Overhead" />
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+-->
 <!-- Uncompressed jquery -->
 	<script
 	  src="https://code.jquery.com/jquery-3.2.1.js"
 	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 	  crossorigin="anonymous"></script>
-	<script src="./script.js" charset="utf-8"></script>
+	<script src="../script.js" charset="utf-8"></script>
 </head>
 
 <body>
-<!--nav start-->
-<ul class="navigation">
-    <li class="nav-item"><a href="#">tools &amp; standards</a></li>
-    <li class="nav-item"><a href="#">html5</a></li>
-    <li class="nav-item"><a href="#">css techniques</a></li>
-    <li class="nav-item"><a href="#">css layouts</a></li>
-    <li class="nav-item"><a href="#">responsive css</a></li>
-    <li class="nav-item"><a href="#">css3</a></li>
-    <li class="nav-item"><a href="#">javascript frameworks</a></li>
-    <li class="nav-item"><a href="#">dynamic content</a></li>
-	<li class="nav-item"><a href="#">templating &amp; seo</a></li>
-	<li class="nav-item"><a href="#">methodology</a></li>
-	<li class="nav-item"><a href="#">project work</a></li>
-</ul>
 
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger"></label>
+<?php include '../inc/new-nav.inc' ?>
 
-<div class="site-wrap">
-<!--nav end-->
+<div class="page-wrap">
 	<header id="top">
 		<h1 id="banner">British Columbia Institute of Technology</h1>
 		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
 	</header>
-	<main>
-		<article class="">
+	<main><article>
 		<h1>Lecture #10 - Methodology</h1>
 		<div id='toc-here'></div>
-		<section>
+		<section class="major-section">
 			<h2>Housekeeping</h2>
 			<section class="contblock">
 			<h3>Agenda</h3>
@@ -70,7 +57,7 @@
 				</ul>
 			</section>
 		</section>
-		<section>
+		<section class="major-section">
 			<h2>Version Control</h2>
 			<section class="contblock">
 			<h3>Collaborative Coding</h3>
@@ -244,7 +231,7 @@
 			</section>
 		</section>
 
-		<section>
+		<section class="major-section">
 			<h2>Web Development Process</h2>
 			<section class="contblock">
 			<h3>Methodology: site planning overview</h3>
@@ -695,7 +682,7 @@ client</b>
 					</ul>
 					<h4>Web Development Questionnaires</h4>
 					<ul>
-						<li><a href="/comp1950/downloads/project_questionnaire.doc">BCIT</a>
+						<li><a href="../downloads/project_questionnaire.doc">BCIT</a>
 						</li>
 						<li><a href="http://www.cemalekin.com/syllabus/wp-content/uploads/2010/02/WebClientInterview.pdf">MOTI client interview form</a>
 						</li>
@@ -1653,94 +1640,14 @@ Content is King!</h4>
 					<li>no more quizzes!!!</li>
 				</ul>
 			</section>
-			</article>
-			</main>
-
-			<!-- footer -->
-			<section id="footer">
-				<a href="#top">Top of Page</a> | <a href="/comp1950/">Home</a>
-			</section>
 		</section>
+	</article></main>
 
-		<section id="rightcont">
+	<!-- footer -->
+	<footer id="footer">
+		<a href="#top">Top of Page</a> | <a href="../">Home</a>
+	</footer>
 
-			<h3 class="navhead">contents</h3>
-
-
-			<a href="/1950/">home</a>
-			<span class="none"> | </span>
-
-
-			<a href="/1950/courseinfo/">about the course</a>
-			<span class="none"> | </span>
-
-
-
-			<a href="/1950/resources/">resources</a>
-			<span class="none"> | </span>
-
-
-			<!--
-****************************************************************
-<a href="/1950/lectures/three"> </a>
-
-<span class="greyout">
-****************************************************************
-	-->
-			<h3 class="navhead">lectures</h3>
-
-			<a href="/1950/lectures/">01 | tools &amp; standards</a> <span class="none"> | </span>
-
-			<a href="/1950/lectures/two/">02 | html5</a> <span class="none"> | </span>
-
-
-
-			<a href="/1950/lectures/three/">03 | css techniques</a> <span class="none"> | </span>
-
-
-			<a href="/1950/lectures/four/">04 | css layouts</a>
-			<span class="none"> | </span>
-
-			<a href="/1950/lectures/five/">05 | responsive css</a>
-			<span class="none"> | </span>
-
-			<a href="/1950/lectures/six/">06 | css3</a>
-			<span class="none"> | </span>
-
-			<a href="/1950/lectures/seven/">07 | javascript frameworks</a> <span class="none"> | </span>
-
-			<a href="/1950/lectures/eight/">08 | dynamic content</a> <span class="none"> | </span>
-
-			<a href="/1950/lectures/nine/">09 | templating, seo</a> <span class="none"> | </span>
-
-			<span class="navoff">10 | methodology</span>
-			<span class="none"> | </span>
-
-			<a href="/1950/lectures/eleven/">11 | project work</a> <span class="none"> | </span>
-
-			<h3 class="navhead">contact</h3>
-
-			<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#95;&#112;&#97;&#114;&#107;&#101;&#114;&#64;&#98;&#99;&#105;&#116;&#46;&#99;&#97;">jeff parker</a>
-			<span class="none"> | </span>
-
-
-			<h3 class="navhead">associated</h3>
-
-			<a href="http://bcitcomp.ca/students/">students on bcitcomp.ca</a>
-			<span class="none"> | </span>
-
-			<a href="http://my.bcit.ca/">my.bcit</a>
-			<span class="none"> | </span>
-
-			<a href="http://www.bcit.ca/">bcit</a>
-			<span class="none"> | </span>
-
-			<a href="http://www.bcit.ca/cas/computing/">bcit: computing</a>
-			<span class="none"> | </span>
-
-		</section>
-
-	</section>
+</div><!-- div.page-wrap -->
 </body>
-
 </html>

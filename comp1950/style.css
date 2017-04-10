@@ -1,14 +1,48 @@
-/* start nav css */
+/***OUTLINE***
+* ©2017 by Julian, Craig and Patrik
+*
+*Reset (Normalize) is in css/normalize.css
+*
+*HTML/Body and globals
+*Head and banner
+*Main and content
+*Nav
+*Table of content
+*Footer
+*
+****************/
+
+/***HTML, Body and Globals***/
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/*Fixes inconsistently capitalized content */
+*:first-letter{
+	text-transform: capitalize;
+}
+
+/* page Wrapper */
+.page-wrap {
+  /* Critical position and size styles */
+  position: relative;
+  padding: 2em 4em;
+}
+
+/* start left side nav */
 /* Navigation Menu - Background */
 .navigation {
   /* critical sizing and position styles */
-  width: 100%;
+  padding: 0;
+  margin: 0;
+  width: 200px;
   height: 100%;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: -205px;
   z-index: 0;
 
   /* non-critical appearance styles */
@@ -40,24 +74,6 @@
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
 
-/* Site Wrapper - Everything that isn't navigation */
-.site-wrap {
-  /* Critical position and size styles */
-  min-height: 100%;
-  min-width: 100%;
-  background-color: white; /* Needs a background or else the nav will show through */
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-
-  /* non-critical apperance styles */
-  padding: 4em;
-  background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
-  background-size: 200%;
-}
-
 /* Nav Trigger */
 .nav-trigger {
   /* critical styles - hide the checkbox input */
@@ -80,18 +96,28 @@ label[for="nav-trigger"] {
 }
 
 /* Make the Magic Happen */
-.nav-trigger + label, .site-wrap {
+
+/*controls speed of magic*/
+.nav-trigger + label, .page-wrap {
   transition: left 0.2s;
 }
 
+/*This moves the hamburger menu button to the right*/
 .nav-trigger:checked + label {
   left: 215px;
 }
 
-.nav-trigger:checked ~ .site-wrap {
+/*This moves the whole page a bit to the right*/
+.nav-trigger:checked ~ .page-wrap {
   left: 200px;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
+
+/*This makes the menu appear*/
+.nav-trigger:checked ~ .navigation{
+	left: 0;
+}
+
 
 body {
     /* Without this, the body has excess horizontal scroll when the menu is open */
@@ -100,9 +126,8 @@ body {
 
 /* Additional non-critical styles */
 
-h1, h3, p {
-  max-width: 600px;
-  margin: 0 auto 1em;
+fieldset{
+	max-width: 95%;
 }
 
 code {
@@ -110,17 +135,10 @@ code {
     background: #ddd;
 }
 
-/* Micro reset */
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
-
 /* end nav css */
 
 
 /*Table of Contents*/
-*:first-letter{
-	text-transform: capitalize;
-}
 
 #toc-here {
 	position: fixed;
@@ -156,7 +174,7 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
 	font-weight: bold;
 	cursor: pointer;
 	padding: 7px;
-	min-width: 7em;
+	min-width: 5.5em;
 	color: blue; /*Change to a better idea for a hover effect...*/
 }
 
