@@ -10,7 +10,7 @@
 	    <li class="nav-item"><a href="#">CSS3</a></li>
 	    <li class="nav-item"><a href="#">JavaScript Frameworks</a></li>
 	    <li class="nav-item"><a href="#">Dynamic Content</a></li>
-		<li class="nav-item"><a href="#">Templating &amp; seo</a></li>
+		<li class="nav-item"><a href="#">Templating &amp; SEO</a></li>
 		<li class="nav-item"><a href="#">Methodology</a></li>
 		<li class="nav-item"><a href="#">Project Work</a></li>
 	</ul>
