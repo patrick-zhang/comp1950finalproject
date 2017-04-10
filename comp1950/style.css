@@ -29,16 +29,51 @@ html, body {
   /* Critical position and size styles */
   position: relative;
   padding: 2em 4em;
+  max-width: 48em;
 }
+
+/*flash-card style*/
+header#top, main article h1, section.major-section {
+	background: rgb(155, 155, 155);/*placeholder*/
+	border: 1px solid black;
+	box-shadow: 0px 4px 10px grey;
+}
+
+header#top{
+	background-color: #003e6b;
+/*	background-image:url('bcit.png');
+	background-repeat: no-repeat;
+	background-position: right;*/
+	color: #e6ebf0;
+	padding: 1em;
+	border-bottom: none;
+	font-size: 0.8em;
+}
+
+header#top h1:before{
+	content: 'BCIT';
+	font-size: 3em;
+	float: right;
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+}
+
+/*main content*/
+
+main article h1 {
+	padding: 0.5em;
+	color: white;
+	background: rgb(81, 81, 216);
+	margin-top: 0;
+}
+
 
 /*major and content section colors and padding*/
 section.major-section {
 	padding: 0.1em 1em;
 	margin: 2.5em 0;
-	max-width: 48em;
 	background-color: #72dc39;
-	border: 1px solid black;
-	box-shadow: 0px 4px 10px black;
 }
 
 section.major-section:first-of-type {
@@ -62,13 +97,24 @@ section.contblock{
 
 section.contblock a{
 	font-weight: bold;
+	color: #2474d0;
 	text-shadow: 1px 1px azure;
+	text-decoration: none;
+	border-bottom: 2px dotted white;
 }
 
 section.contblock a:hover{
 	text-shadow: 1px 2px white;
+	border-bottom: 2px dotted #2474d0;
+	transition:border-bottom .3s;
 }
 
+section.contblock code{
+	font: 12px "Courier New", Courier, monospace;
+	font-weight: bold;
+	color: #ad4445;
+	background-color: transparent;
+}
 section.contblock h5{
 	padding: 0;
 	margin: 0;
