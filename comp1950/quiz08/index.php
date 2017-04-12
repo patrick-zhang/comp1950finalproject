@@ -4,6 +4,10 @@
 <head>
 	<title>COMP 1950 - Quiz #8</title>
 
+	<!-- mild css reset -->
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" href="../style.css">
+
 <!-- we should probably store the rest that's included in all pages in a include file, too? -->
 <!--
 	<meta charset="utf-8">
@@ -11,7 +15,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link rel="stylesheet" href="/css/styles.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 -->
@@ -29,21 +32,29 @@
 -->
 </head>
 
-<body>
-	<header><h1>COMP 1950 - Intermediate Web Development and Design</h1></header>
-	<main>
-		<h1>Quiz # 8</h1>
-		<p>This quiz is to be done individually and is closed book (so don't leave this window until you're done!)</p>
+<body class="quiz">
+<div class="page-wrap">
+	<header id="top">
+		<h1 id="banner">British Columbia Institute of Technology</h1>
+		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
+	</header>
+	<main><article>
 		<!-- We could consider building in functionality that prevents leaving the window and records attempts to do so -->
-		<form class="quiz quiz-8"> <!-- action="#done" method="post" could be used to process it on the same page -->
-			<dl>
-				<dt><label for="sname">Name</label></dt>
-				<dd><input id="sname" type="text" name="sname"></dd>
-				<dt><label for="snum">Student #</label></dt>
-				<dd><input id="snum" type="text" name="snum"></dd>
-			</dl>
+		 <form class="quiz quiz-8"> <!-- action="#done" method="post" could be used to process it on the same page -->
+			<h1>Quiz # 8 - Good luck!</h1>
+			<section class="warning major-section">
+				<p class="contblock">This quiz is to be done individually and is closed book, so please <strong>don't leave this window</strong> until you're done!</p>
 
-			<ol>
+				<dl class="contblock">
+					<dt><label for="sname">Name</label></dt>
+					<dd><input id="sname" type="text" name="sname"></dd>
+					<dt><label for="snum">Student #</label></dt>
+					<dd><input id="snum" type="text" name="snum"></dd>
+				</dl>
+			</section>
+
+			<section class="major-section">
+			<ol class="contblock">
 				<li>
 					<p>What does the acronym <strong>SEO</strong> stand for? (2 marks)</p>
 					<input type="text" name="q1">
@@ -51,11 +62,11 @@
 				<li>
 					<p>Name at least five things you can do to optimize a page for search engines (5 marks)</p>
 					<textarea name="q2" rows="6" cols="70">
-	 -
-	 -
-	 -
-	 -
-	 -
+ -
+ -
+ -
+ -
+ -
 					</textarea>
 				</li>
 				<li>
@@ -84,7 +95,7 @@
 					<input type="text" name="">
 				</li>
 				<li>
-					<p>Mauris congue ullamcorper efficitur. <br> Check <strong>all</strong> that apply! (1 bonus mark)</p>
+					<p>Mauris congue ullamcorper efficitur. Check <strong>all</strong> that apply! (1 bonus mark)</p>
 					<ul>
 						<li>
 							<input type="checkbox" name="q5" value="a" id="q5a">
@@ -105,11 +116,15 @@
 					</ul>
 				</li>
 			</ol>
-			<input type="submit" value="Submit">
-		</form>
-	</main>
+			</section>
+			<section class="major-section">
+				<input type="submit" value="Submit">
+			</section>
+		 </form>
+	</article></main>
 	<footer>
 		<!-- the usual, whatever that is -->
 	</footer>
+</div>
 </body>
 </html>

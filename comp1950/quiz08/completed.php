@@ -4,6 +4,12 @@
 <head>
 	<title>COMP 1950 - Quiz #8 - Example solution</title>
 
+	<meta charset="UTF-8">
+	<!-- mild css reset -->
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<!-- main style sheet -->
+	<link rel="stylesheet" type="text/css" href="../style.css" />
+
 <!-- we should probably store the rest that's included in all pages in a include file, too? -->
 <!--
 	<meta charset="utf-8">
@@ -29,26 +35,27 @@
 -->
 </head>
 
-<body>
-	<header><h1>COMP 1950 - Intermediate Web Development and Design</h1></header>
-	<main>
-		<h1>Quiz # 8 - Example Solution</h1>
-		<p>This quiz is to be done individually and is closed book (so don't leave this window until you're done!)</p>
-		<!-- We could consider building in functionality that prevents leaving the window and records attempts to do so -->
-		<form class="quiz quiz-8"> <!-- action="#done" method="post" could be used to process it on the same page -->
-			<dl>
-				<dt><label for="sname">Name</label></dt>
-				<dd><input id="sname" type="text" name="sname" value="Jeff" disabled></dd>
-				<dt><label for="snum">Student #</label></dt>
-				<dd><input id="snum" type="text" name="snum" value="N/A" disabled></dd>
-			</dl>
 
+<body class="quiz completed">
+<div class="page-wrap">
+	<header id="top">
+		<h1 id="banner">British Columbia Institute of Technology</h1>
+		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
+	</header>
+	<main><article>
+		<form class="quiz quiz-8">
+		<h1>Quiz # 8 - Example Solution</h1>
+		<section class="warning major-section">
+			<p class="contblock">This is an example solution only. Other answers may also have been correct.</p>
+		<!-- We could consider building in functionality that prevents leaving the window and records attempts to do so -->
+		</section>
+		<section class="major-section">
 			<ol>
-				<li>
+				<li class="contblock">
 					<p>What does the acronym <strong>SEO</strong> stand for? (2 marks)</p>
 					<input type="text" name="q1" value="Search Engine Optimization" disabled>
 				</li>
-				<li>
+				<li class="contblock">
 					<p>Name at least five things you can do to optimize a page for search engines (5 marks)</p>
 					<textarea name="q2" rows="6" cols="70" disabled>
  -Use descriptive page titles
@@ -61,7 +68,7 @@
  - HTML semantics help to make sense of content
 					</textarea>
 				</li>
-				<li>
+				<li class="contblock">
 					<p>The acronym CMS stands for: (1 mark)</p>
 					<ul>
 						<li>
@@ -82,11 +89,11 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li class="contblock">
 					<p>Name one CMS other than Tumblr. (2 marks)</p>
 					<input type="text" name="q4" value="Wordpress, Drupal, Joomla, Blogger, Posterous …" disabled>
 				</li>
-				<li>
+				<li class="contblock">
 					<p>Mauris congue ullamcorper efficitur. <br> Check <strong>all</strong> that apply! (1 bonus mark)</p>
 					<ul>
 						<li>
@@ -108,7 +115,10 @@
 					</ul>
 				</li>
 			</ol>
-			<input type="submit" value="Submit">
+		</section>
+		<section class="major-section">
+			<p class="contblock">Your results will be evaluated by hand, please be patient.</p>
+		</section>
 		</form>
 	</main>
 	<footer>

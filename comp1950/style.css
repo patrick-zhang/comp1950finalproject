@@ -28,7 +28,7 @@ html, body {
 }
 
 /*flash-card style*/
-header#top, main article h1, section.major-section {
+header#top, main article h1, .major-section {
 	background: rgb(155, 155, 155);/*placeholder*/
 	border: 1px solid black;
 	box-shadow: 0px 4px 10px grey;
@@ -65,32 +65,32 @@ main article h1 {
 
 
 /*major and content section colors and padding*/
-section.major-section {
+.major-section {
 	padding: 0.1em 1em;
 	margin: 2.5em 0;
 	background-color: #72dc39;
 }
 
-section.major-section:first-of-type {
+.major-section:first-of-type {
 	background-color: #72dc39;
 }
 
-section.major-section:nth-of-type(2) {
+.major-section:nth-of-type(2) {
 	background-color: #8b54ec;
 }
 
-section.major-section:nth-of-type(3) {
+.major-section:nth-of-type(3) {
 	background-color: #FFC107;
 }
 
-section.contblock{
+.contblock{
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 0.25em 1.5em 1.5em;
 	margin: 1em 1.5em 2.5em;
 	border: 1px dotted rgba(85, 30, 185, 0.82);
 }
 
-section.contblock a{
+.contblock a{
 	font-weight: bold;
 	color: #2474d0;
 	text-shadow: 1px 1px azure;
@@ -98,33 +98,90 @@ section.contblock a{
 	border-bottom: 2px dotted white;
 }
 
-section.contblock a:hover{
+.contblock a:hover{
 	text-shadow: 1px 2px white;
 	border-bottom: 2px dotted #2474d0;
 	transition:border-bottom .3s;
 }
 
-section.contblock code{
+.contblock code{
 	font: 12px "Courier New", Courier, monospace;
 	font-weight: bold;
 	color: #ad4445;
 	background-color: transparent;
 }
-section.contblock h5{
+.contblock h5{
 	padding: 0;
 	margin: 0;
 	display: inline-block;
 	font-size: medium;
 }
 
-section.contblock fieldset {
+.contblock fieldset {
 	background-color: rgba(240, 248, 255, 0.32);
 }
 
-section.contblock legend {
+.contblock legend {
 	font-weight: bold;
 }
 
+/*Quiz*/
+
+.quiz input, .quiz dt, .quiz dd {
+	display: inline-block;
+}
+
+.quiz input {
+	margin-right: 1.5em;
+}
+
+.quiz textarea {
+	max-width: 100%;
+}
+.quiz dd{
+	margin-left: 0;
+}
+
+.quiz ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.quiz label{
+	max-width: 30em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.quiz input:checked~label {
+	font-weight: bold;
+}
+.quiz .contblock {
+	padding: 0.25em 1.5em 0.5em;
+	margin: 1em;
+}
+
+
+.quiz .major-section{
+	margin: 1.5em 0;
+}
+
+.quiz input[type="submit"]{
+	font-size: 1.5em;
+	margin: 1em calc(50% - 45px);
+}
+
+.quiz.completed input, .quiz.completed textarea, .quiz.completed input[checked]~label {
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.quiz.completed input[type="text"]{
+	width: 100%;
+	max-width: 513px;
+}
+
+/*********************************/
 /* start left side nav */
 /* Navigation Menu - Background */
 .navigation {
