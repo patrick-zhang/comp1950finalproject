@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php include '../inc/header.inc' ?>
 	<title>COMP 1950 - Lecture #10 - Methodology</title>
-
-	<!-- stuff that's the same, maybe should be pulled in by script -->
-	<meta charset="UTF-8">
-	<!-- mild css reset -->
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	<!-- main style sheet -->
-	<link rel="stylesheet" type="text/css" href="../style.css" />
-<!--
-	<link rel="alternate stylesheet" href="../css/overhead.css" type="text/css" media="screen" title="Overhead" />
-	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
--->
-<!-- Uncompressed jquery -->
-	<script
-	  src="https://code.jquery.com/jquery-3.2.1.js"
-	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-	  crossorigin="anonymous"></script>
-	<script src="../script.js" charset="utf-8"></script>
 </head>
 
 <body>

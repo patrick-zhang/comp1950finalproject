@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
+<?php include '../inc/header.inc' ?>
 	<title>COMP 1950 - Quiz #8</title>
-
-	<!-- mild css reset -->
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	<link rel="stylesheet" href="../style.css">
-
-<!-- we should probably store the rest that's included in all pages in a include file, too? -->
-<!--
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
--->
-	<!--[if lt IE 9]>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-	<![endif]-->
-
-<!--
-	<script src="/js/scripts.js"></script>
-<script
-	src="https://code.jquery.com/jquery-3.2.1.min.js"
-	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
--->
 </head>
 
 <body class="quiz">
@@ -118,7 +88,7 @@
 			</ol>
 			</section>
 			<section class="major-section">
-				<input type="submit" value="Submit">
+				<a href="completed.php"><input type="button" value="Submit"></a>
 			</section>
 		 </form>
 	</article></main>

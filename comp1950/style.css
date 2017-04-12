@@ -127,6 +127,11 @@ main article h1 {
 
 /*Quiz*/
 
+body.quiz {
+	display: flex;
+	justify-content: center;
+}
+
 .quiz input, .quiz dt, .quiz dd {
 	display: inline-block;
 }
@@ -166,7 +171,7 @@ main article h1 {
 	margin: 1.5em 0;
 }
 
-.quiz input[type="submit"]{
+.quiz input[type="button"]{
 	font-size: 1.5em;
 	margin: 1em calc(50% - 45px);
 }
