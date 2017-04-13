@@ -68,7 +68,7 @@ main article h1 {
 .major-section {
 	padding: 0.1em 1em;
 	margin: 2.5em 0;
-	background-color: #72dc39;
+	background-color: rgb(33, 142, 30);
 }
 
 .major-section:first-of-type {
@@ -81,6 +81,12 @@ main article h1 {
 
 .major-section:nth-of-type(3) {
 	background-color: #FFC107;
+}
+
+/*feel free to invent more colors*/
+
+footer#footer.major-section{
+	background-color: #795548;
 }
 
 .contblock{
@@ -114,7 +120,7 @@ main article h1 {
 	padding: 0;
 	margin: 0;
 	display: inline-block;
-	font-size: medium;
+	font-size: 100%;
 }
 
 .contblock fieldset {
@@ -126,6 +132,11 @@ main article h1 {
 }
 
 /*Quiz*/
+
+#takequiz {
+	font-size: 1.2em;
+	margin-left: 1em;
+}
 
 body.quiz {
 	display: flex;
@@ -465,4 +476,15 @@ nav.table-of-contents>ol {
 :not([open])>.hvr-radial-out:hover:before, :not([open])>.hvr-radial-out:focus:before, :not([open])>.hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
+}
+
+
+/*Footer*/
+
+/*Stylesheet switcher*/
+#switcher{
+	padding: 1em 0;
+}
+form#theme {
+	display: inline-block;
 }

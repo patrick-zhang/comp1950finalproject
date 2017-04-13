@@ -1,16 +1,5 @@
-<?php include '../inc/header.inc' ?>
-	<title>COMP 1950 - Lecture #10 - Methodology</title>
-</head>
-
-<body>
-
-<?php include '../inc/new-nav.inc' ?>
-
-<div class="page-wrap">
-	<header id="top">
-		<h1 id="banner">British Columbia Institute of Technology</h1>
-		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
-	</header>
+<?php $title = 'COMP 1950 - Lecture #10 - Methodology';
+include '../inc/header.inc' ?>
 	<main><article>
 		<h1>Lecture #10 - Methodology</h1>
 		<div id='toc-here'></div>
@@ -19,7 +8,7 @@
 			<section class="contblock">
 			<h3>Agenda</h3>
 				<ul>
-					<li>Quiz #8</li>
+					<li>Quiz #8 <button id="takequiz"><a href="../quiz08">Take the quiz</a></button></li>
 					<li>final exam preparation</li>
 					<li>collaborative frameworks</li>
 					<li>methodology</li>
@@ -1626,11 +1615,4 @@ Content is King!</h4>
 		</section>
 	</article></main>
 
-	<!-- footer -->
-	<footer id="footer">
-		<a href="#top">Top of Page</a> | <a href="../">Home</a>
-	</footer>
-
-</div><!-- div.page-wrap -->
-</body>
-</html>
+	<?php include "../inc/footer.inc"; ?>

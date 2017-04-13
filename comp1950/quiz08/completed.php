@@ -1,42 +1,11 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-	<title>COMP 1950 - Quiz #8 - Example solution</title>
-
-	<meta charset="UTF-8">
-	<!-- mild css reset -->
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	<!-- main style sheet -->
-	<link rel="stylesheet" type="text/css" href="../style.css" />
-
-<!-- we should probably store the rest that's included in all pages in a include file, too? -->
-<!--
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link rel="stylesheet" href="/css/styles.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
--->
-	<!--[if lt IE 9]>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-	<![endif]-->
-
-<!--
-	<script src="/js/scripts.js"></script>
-<script
-	src="https://code.jquery.com/jquery-3.2.1.min.js"
-	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
--->
+<?php
+	$title="COMP 1950 - Quiz #8 - Example solution";
+	include '../inc/header.inc'
+?>
 </head>
 
-
 <body class="quiz completed">
+	<?php include '../inc/new-nav.inc' ?>
 <div class="page-wrap">
 	<header id="top">
 		<h1 id="banner">British Columbia Institute of Technology</h1>
@@ -58,7 +27,7 @@
 				<li class="contblock">
 					<p>Name at least five things you can do to optimize a page for search engines (5 marks)</p>
 					<textarea name="q2" rows="6" cols="70" disabled>
- -Use descriptive page titles
+ - Use descriptive page titles
  - Use good file and folder names
  - Site folder structure helps explain information architecture
  - Meta tag name=”description” is applied to the head section
@@ -118,6 +87,7 @@
 		</section>
 		<section class="major-section">
 			<p class="contblock">Your results will be evaluated by hand, please be patient.</p>
+			<p class="contblock">Feel free to <button><a href="../lecture10">Return</a></button> to the lecture now.</p>
 		</section>
 		</form>
 	</main>

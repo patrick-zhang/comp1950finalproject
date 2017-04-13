@@ -1,0 +1,33 @@
+/*Julian*/
+
+@import "style.css";
+
+/*hide between page navigation, one lesson at a time!*/
+.navigation, .nav-trigger, label[for='nav-trigger'] {
+	display: none;
+}
+
+/*fullscreen content with bigger words to avoid too wide sentences*/
+.page-wrap {
+	max-width: none;
+	font-size: 140%;
+}
+
+/*better spacing while reading*/
+li {
+	padding: 0.2em;
+}
+
+/*more consistent sizes*/
+h5 {
+	font-size: 1.5em;
+}
+
+/*lesser headings don't get listed in table of content*/
+#toc-here nav ol li ol li ol{
+	display: none;
+}
+/*table of content takes up the whole screen so it all fits*/
+#toc-here details {
+	max-width: none;
+}
