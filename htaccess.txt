@@ -1,4 +1,0 @@
-AddType text/html .shtml .html .htm
-AddHandler server-parsed .shtml .html .htm
-
-ErrorDocument 404 /students/cvolker/error.html
