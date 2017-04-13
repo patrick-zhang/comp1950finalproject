@@ -5,15 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>COMP 1950 Final Project</title>
 
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -65,7 +63,7 @@
         <div class="col-md-4">
           <h2>Quizzes</h2>
           <p>
-            We also felt that it would be beneficial if students could take all of their quizzes and exams online - without the need to wait for an email that would then have to be opened, and from which some items may have to be downloaded. 
+            We also felt that it would be beneficial if students could take all of their quizzes and exams online - without the need to wait for an email that would then have to be opened, and from which some items may have to be downloaded.
           </p>
        </div>
         <div class="col-md-4">
@@ -75,7 +73,40 @@
           </p>
           </div>
       </div>
-
+	  <div class="row">
+        <div class="col-md-4">
+          <h2>Planing</h2>
+          <p>
+            A wise man once said 70% of the time for building a website goes into planning and the <a href="./sitemap/">sitemap</a> (and the tooltips there) shows the innovative vision we have for the COMP1950 site, such as the file section that makes reviewing materials much easier for the student.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <h2>Table of Content</h2>
+          <p>
+            The lecture pages contain hours of material and as such are very long, which makes them hard to navigate. Further there's many pages, which would make building a page navigation a nightmare (probably why there wasn't one before). A javascript solution automatically scans each page that includes an empty div with <code>id="#toc-to-here"</code> and makes the text of the headings (made URL friendly) as their id to build a dynamic list of contents that can be revealed/hidden by a fixed button that stays available at all times.
+          </p>
+       </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-3">
+          <h2>Styleswitcher</h2>
+          <p>
+            Both the print and projector styles add to the main style. Through the media call the print sheet is activated when someone attempts to print the page while the projector stylesheet is available (in addition to the usual way in Firefox) through a style switcher widget in the footer.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <h2>Idea: Students' CSS</h2>
+          <p>
+            It's nice to see what you can accomplish just with CSS, but commenting that code well enough for others to learn from it is another thing entirely. We suggest to consider having students submit CSS files for changing the new COMP1950 site and the ones that use the most interesting techniques and are well commented could be added to the collection of styles available. The style switcher could easily be expanded to hold more style sheets, and it's possible to build a script that automatically adds any style files from a particular folder to the page!
+          </p>
+	   </div>
+        <div class="col-md-4">
+          <h2>Dynamic files</h2>
+          <p>
+            A full CMS would be too heavy handed for the mostly static content, but having as much of the repeated content isolated into includes gives a similar benefit of only having to change things in one place without the full complexity. - So that's what the header.inc and footer.inc are for. Include them in each file and drastically reduce the amount of repeated content across files.
+          </p>
+        </div>
+      </div>
 
       <hr>
 
