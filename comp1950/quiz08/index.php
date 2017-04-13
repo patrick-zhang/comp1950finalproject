@@ -1,13 +1,11 @@
-<?php include '../inc/header.inc' ?>
-	<title>COMP 1950 - Quiz #8</title>
-</head>
+<?php
+	$title="COMP 1950 - Quiz #8";
+	include '../inc/header.inc';
+?>
 
-<body class="quiz">
-<div class="page-wrap">
-	<header id="top">
-		<h1 id="banner">British Columbia Institute of Technology</h1>
-		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
-	</header>
+<script>/*manipulating content from header.inc*/
+$('body').addClass("quiz");</script>
+
 	<main><article>
 		<!-- We could consider building in functionality that prevents leaving the window and records attempts to do so -->
 		 <form class="quiz quiz-8"> <!-- action="#done" method="post" could be used to process it on the same page -->
@@ -92,9 +90,5 @@
 			</section>
 		 </form>
 	</article></main>
-	<footer>
-		<!-- the usual, whatever that is -->
-	</footer>
-</div>
-</body>
-</html>
+
+<?php include "../inc/footer.inc"; ?>
