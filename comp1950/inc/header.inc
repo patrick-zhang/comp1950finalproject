@@ -6,11 +6,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<?php if (isset($title)) { ?>
+	<title><?php echo $title ?></title>
+<?php } ?>
+
+
 <!-- CSS -->
 	<!-- mild css reset -->
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 	<!-- main style sheet -->
-	<link rel="stylesheet" type="text/css" href="../style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" title="default"/>
+	<link rel="alternate stylesheet" type="text/css" href="../css/projector.css" media="all" title="projector">
+
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
 	<!--
 		<link rel="alternate stylesheet" href="../css/overhead.css" type="text/css" media="screen" title="Overhead" />
 		<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
@@ -35,7 +43,11 @@
 
 	<!-- Custom -->
 		<script src="../script.js" charset="utf-8"></script>
-
-
-
-<!-- include with each page: <title></title> and </head> -->
+</head>
+<body>
+	<?php include '../inc/new-nav.inc' ?>
+	<div class="page-wrap">
+		<header id="top">
+			<h1 id="banner">British Columbia Institute of Technology</h1>
+			<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
+		</header>
