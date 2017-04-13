@@ -19,6 +19,31 @@ html, body {
 	font-family: sans-serif;
 }
 
+header, nav, .site_map_link, #search_form{
+		display: none;
+	}
+	
+body, #content, main, footer  {
+	/* floating is not advised for printers */
+	   float: none;
+	/* let the printer set margins */
+	   width: auto;
+	   margin: 0;
+	   padding: 0;
+	/* dont display background colors or images */
+	   background: none;
+	}
+
+toc { 
+	display: none;
+}
+
+a[href^="http://"]:link:after, 
+a[href^="http://"]:visited:after{
+   content: " (URL: " attr(href) ") ";
+   font-size: 90%;
+}
+
 /* page Wrapper */
 .page-wrap {
   /* Critical position and size styles */
