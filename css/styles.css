@@ -12,3 +12,9 @@ body {
 .navbar span.navbar-brand {
 	color: white;
 }
+
+.final-intro .col-md-4{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
