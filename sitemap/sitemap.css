@@ -1,3 +1,5 @@
+/*Reset (line 1ish), sitemap (50ish), tooltip(275ish), other(325ish)*/
+
 /* ------------------------------------------------------------
 	Reset Styles (from meyerweb.com)
 ------------------------------------------------------------ */
@@ -266,4 +268,52 @@ a:visited:before {
 	font-size: 10px;
 	margin-bottom: 5px;
 	word-wrap: break-word;
+}
+
+/* ------------------------------------------------------------
+	Tool Tip Styles
+------------------------------------------------------------ */
+/* by Julian via w3school*/
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_top */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_transition */
+
+
+a{
+	position: relative;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 15em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    left: 50%;
+    margin-left: -60px;
+
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+a:hover > .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
