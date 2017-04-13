@@ -1,5 +1,7 @@
-<?php $title = 'COMP 1950 - Lecture #10 - Methodology';
-include '../inc/header.inc' ?>
+<?php
+	$title = 'COMP 1950 - Lecture #10 - Methodology';
+	include '../inc/header.inc';
+?>
 	<main><article>
 		<h1>Lecture #10 - Methodology</h1>
 		<div id='toc-here'></div>
@@ -1615,4 +1617,4 @@ Content is King!</h4>
 		</section>
 	</article></main>
 
-	<?php include "../inc/footer.inc"; ?>
+<?php include "../inc/footer.inc"; ?>

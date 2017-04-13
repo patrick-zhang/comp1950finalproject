@@ -1,16 +1,11 @@
 <?php
 	$title="COMP 1950 - Quiz #8 - Example solution";
-	include '../inc/header.inc'
+	include '../inc/header.inc';
 ?>
-</head>
 
-<body class="quiz completed">
-	<?php include '../inc/new-nav.inc' ?>
-<div class="page-wrap">
-	<header id="top">
-		<h1 id="banner">British Columbia Institute of Technology</h1>
-		<h2 id="titlebar">COMP 1950 - Intermediate Web Design and Development</h3>
-	</header>
+<script>/*manipulating content from header.inc*/
+$('body').addClass("quiz completed");</script>
+
 	<main><article>
 		<form class="quiz quiz-8">
 		<h1>Quiz # 8 - Example Solution</h1>
@@ -91,8 +86,5 @@
 		</section>
 		</form>
 	</main>
-	<footer>
-		<!-- the usual, whatever that is -->
-	</footer>
-</body>
-</html>
+
+<?php include "../inc/footer.inc"; ?>
